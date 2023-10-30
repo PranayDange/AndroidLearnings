@@ -77,6 +77,9 @@ class SignUpFragment : Fragment() {
             Log.e("Hellllllllooooooo", "Hellllllllooooooo")
 
         }
+        binding.btnDatePicker.setOnClickListener {
+
+        }
         return binding.root
     }
 
