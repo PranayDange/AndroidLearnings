@@ -160,17 +160,32 @@
                         android:layout_weight="1"
                         android:text="Android" />
                 </LinearLayout>
+
                 <TextView
                     android:id="@+id/selectDate"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Select DOB" />
+
                 <Button
                     android:id="@+id/btnDatePicker"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="Select Date" />
+
+                <TextView
+                    android:id="@+id/selectCountry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select Country" />
+
+                <Spinner
+                    android:id="@+id/countrySelector"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"

@@ -2,6 +2,7 @@ package com.example.viewsandwidets
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.viewsandwidets.signup.SignUpFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
