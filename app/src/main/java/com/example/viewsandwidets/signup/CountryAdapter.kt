@@ -29,6 +29,7 @@ class CountryAdapter(context: Context, countryList: List<Country>) : BaseAdapter
         return inflate
     }
 }*/
+//here we are using base adapter
 class CountryAdapter(private val context: Context, private val countryList: List<Country>) : BaseAdapter() {
     override fun getCount(): Int {
         return countryList.size

@@ -1,0 +1,11 @@
+<!-- res/drawable/custom_input_text_field_background.xml -->
+
+<shape xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+    <solid android:color="#E0E0E0" /> <!-- Background color for the text field -->
+    <corners android:radius="8dp" /> <!-- Adjust the radius for the desired roundness -->
+    <stroke
+        android:width="2dp"
+    android:color="#B0B0B0" />
+</shape>
